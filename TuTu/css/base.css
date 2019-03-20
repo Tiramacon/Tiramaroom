@@ -1,0 +1,145 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.w {
+    width: 1536px;
+    margin: 0 auto;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+li {
+    list-style: none;
+}
+body, ul, ol, dl, dt, dd, p{
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 18px;
+}
+em {
+    font-style: normal;
+}
+i {
+    font-style: normal;
+    font-family: icomoon;
+}
+a {
+    text-decoration: none;
+}
+h1, h5, p {
+    margin: 0;
+}
+input, button {
+    padding: 0;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom:1;
+}
+
+.main_nav {
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(250, 250, 250, 0.7);
+    height: 46px;
+    top: 0;
+    left: 50%;
+    margin-left: -768px;
+}
+.main_nav .fl li {
+    float: left;
+}
+.main_nav .fl a {
+    display: block;
+    width: 100px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #666666;
+}
+.main_nav .fl a:hover {
+    background-color: #00bbbb;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.main_nav .fl .nav_logo {
+    width: 120px;
+    color: #fff;
+    background-color: #009999;
+    font-size: 22px;
+}
+.main_nav .fr a {
+    display: block;
+    width: 80px;
+    height: 26px;
+    color: #009999;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #009999;
+    border-radius: 4px;
+    margin: 10px 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.main_nav .fr a:hover {
+    background-color: #00bbbb;
+    border-color: #00bbbb;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    z-index: -999;
+    left: 50%;
+    top: 0;
+    margin-left: -768px;
+}
+.header div {
+    height: 768px;
+    background: url("../images/landscape01.jpg") center top;
+}
+.part_one {
+    position: relative;
+    margin-top: 768px;
+    height: 656px;
+    background-color: #fff;
+}
+.part_two {
+    position: relative;
+    height: 656px;
+    background-color: #f8f8f8;
+}
+.part_three {
+    position: relative;
+    height: 656px;
+}
+.part_four {
+    position: relative;
+    height: 656px;
+    background-color: #fff;
+}
+.part_five {
+    position: relative;
+    height: 656px;
+}
